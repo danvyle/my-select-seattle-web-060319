@@ -4,7 +4,6 @@ def my_select(collection)
      yield |num|
     i += 1
   end 
-    new_select
 end
 
 
