@@ -1,8 +1,7 @@
 def my_select(collection)
   i = 0 
-  new_select = []
   while i < collection.length
-    new_select << yield |num|
+     yield |num|
     i += 1
   end 
     new_select
