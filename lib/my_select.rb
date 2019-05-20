@@ -7,7 +7,7 @@ def my_select(collection)
     if yield(collection[i]) == true
     new_select << (collection[i])
   end
-    i += 1
+  i += 1
   end 
   new_select
 end
